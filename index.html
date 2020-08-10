@@ -8,26 +8,28 @@
     />
     <!-- bootstrap style sheet -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <style>
+        .row div {
+            padding: 10px 15px;
+            border: 1px solid gray;
+            border-radius: 3px;
+            margin: 3px 0;
+        }
+    </style>
     <title>Document</title>
   </head>
   <body>
-    <div class="container" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-sm" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-md" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-lg" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-xl" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-fluid" style="background: skyblue; padding: 30px;">
-      <h1>Fluid Container</h1>
+    <div class="container" style="padding: 20px;">
+      <div class="row">
+          <div class="col-sm-4 col-md-6" style="background: yellow;">col-md-4</div>
+          <div class="col-sm-4 col-md-6" style="background: yellow;">col-md-4</div>
+          <div class="col-sm-4 col-md-12" style="background: yellow;">col-md-4</div>
+      </div>
+      <div class="row">
+          <div class="col-md-4 col-lg-6" style="background: yellow;">col-md-4</div>
+          <div class="col-md-4 col-lg-6" style="background: yellow;">col-md-4</div>
+          <div class="col-md-4 col-md-12" style="background: yellow;">col-md-4</div>
+      </div>
     </div>
 
     <!-- requires source link for bootstrap source js code -->
