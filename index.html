@@ -15,21 +15,66 @@
             border-radius: 3px;
             margin: 3px 0;
         }
+
+        .row {
+            margin: 5px 0;
+            border-radius: 3px;
+        }
     </style>
     <title>Document</title>
   </head>
   <body>
     <div class="container" style="padding: 20px;">
       <div class="row">
-          <div class="col-sm-4 col-md-6" style="background: yellow;">col-md-4</div>
-          <div class="col-sm-4 col-md-6" style="background: yellow;">col-md-4</div>
-          <div class="col-sm-4 col-md-12" style="background: yellow;">col-md-4</div>
+          <div class="col-sm col-md" style="background: red;">col-md-4</div>
+          <div class="col-sm col-md" style="background: red;">col-md-4</div>
+          <div class="col-sm col-md" style="background: red;">col-md-4</div>
+      </div>
+      <div class="row align-items-center" style="background: hotpink; min-height: 150px;">
+          <div class="col" style="background: indigo; color: white;">col-md-4</div>
+          <div class="col" style="background: indigo; color: white;">col-md-4</div>
+          <div class="col" style="background: indigo; color: white;">col-md-4</div>
+      </div>
+      <div class="row" style="background: hotpink; min-height: 150px;">
+          <div class="col align-self-start" style="background: indigo; color: white;">col-md-4</div>
+          <div class="col align-self-center" style="background: indigo; color: white;">col-md-4</div>
+          <div class="col align-self-end" style="background: indigo; color: white;">col-md-4</div>
+      </div>
+      <div class="row row-cols-md-2 justify-content-center">
+          <div class="col" style="background: yellow;">col-md-4</div>
+          <div class="col" style="background: yellow;">col-md-4</div>
+          <div class="col" style="background: yellow;">col-md-4</div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-4" style="background: yellow;">col-md-4</div>
+          <div class="col-4" style="background: yellow;">col-md-4</div>
+      </div>
+      <div class="row row-col-2 justify-content-center">
+          <div class="col-md-2" style="background: yellow;">col-md-4</div>
+          <div class="col-md-2" style="background: yellow;">col-md-4</div>
+          <div class="col-md-2" style="background: yellow;">col-md-4</div>
+      </div>
+      <div class="row justify-content-end">
+          <div class="col-md-2" style="background: yellow;">col-md-4</div>
+          <div class="col-md-2" style="background: yellow;">col-md-4</div>
+          <div class="col-md-2" style="background: yellow;">col-md-4</div>
+      </div>
+      <div class="row justify-content-first">
+          <div class="col-md-2" style="background: yellow;">col-md-4</div>
+          <div class="col-md-2" style="background: yellow;">col-md-4</div>
+          <div class="col-md-2" style="background: yellow;">col-md-4</div>
       </div>
       <div class="row">
-          <div class="col-md-4 col-lg-6" style="background: yellow;">col-md-4</div>
-          <div class="col-md-4 col-lg-6" style="background: yellow;">col-md-4</div>
-          <div class="col-md-4 col-md-12" style="background: yellow;">col-md-4</div>
+          <div class="col-md-2" style="background: yellow;">col-md-4</div>
+          <div class="col-md-2" style="background: yellow;">col-md-4</div>
+          <div class="col-md-2" style="background: yellow;">col-md-4</div>
       </div>
+      <div class="row justify-content-md-center">
+          <div class="col-md-2 flex-last" style="background: blue;">1- col-md-4</div>
+          <div class="col-md-2 flex-first" style="background: blue;">2- col-md-4</div>
+          <div class="col" >3- col-md-4</div>
+        </div>
+        <a href="https://getbootstrap.com/docs/4.5/layout/grid/">for more info on flex-grid</a>
     </div>
 
     <!-- requires source link for bootstrap source js code -->
