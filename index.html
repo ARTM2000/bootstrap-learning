@@ -8,26 +8,33 @@
     />
     <!-- bootstrap style sheet -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <style>
+      .row div {
+        padding: 10px 15px;
+        border: 1px solid gray;
+        border-radius: 3px;
+        margin: 3px 0;
+      }
+
+      .row {
+        margin: 5px 0;
+        border-radius: 3px;
+      }
+    </style>
     <title>Document</title>
   </head>
   <body>
-    <div class="container" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
+    <!-- <div class="jumbotron" style="background: greenyellow;">
+      <h1>With a little border-radius</h1>
     </div>
-    <div class="container-sm" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-md" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-lg" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-xl" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-fluid" style="background: skyblue; padding: 30px;">
-      <h1>Fluid Container</h1>
+    <div class="jumbotron jumbotron-fluid" style="background: greenyellow;">
+      <h1>With no border-radius</h1>
+    </div> -->
+    <div class="jumbotron jumbotron-fluid" style="background: greenyellow;">
+      <div class="container">
+        <h1>Welcome to this test</h1>
+        <p>This is a test for working jumbotron in bootstrap</p>
+      </div>
     </div>
 
     <!-- requires source link for bootstrap source js code -->
