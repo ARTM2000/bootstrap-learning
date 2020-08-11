@@ -8,26 +8,180 @@
     />
     <!-- bootstrap style sheet -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <style>
+      button {
+        outline: transparent;
+      }
+    </style>
     <title>Document</title>
   </head>
   <body>
-    <div class="container" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
+    <!-- <div class="jumbotron" style="background: greenyellow;">
+      <h1>With a little border-radius</h1>
     </div>
-    <div class="container-sm" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
+    <div class="jumbotron jumbotron-fluid" style="background: greenyellow;">
+      <h1>With no border-radius</h1>
+    </div> -->
+    <div
+      class="jumbotron jumbotron-fluid bg-primary text-white border-top-0 my-0 py-5"
+    >
+      <div class="container-sm text-center">
+        <h1 class="display-4">
+          Welcome to this test <span class="badge badge-secondary">New</span>
+        </h1>
+        <p class="lead">This is a test for working with bootstrap</p>
+      </div>
     </div>
-    <div class="container-md" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-lg" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-xl" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-fluid" style="background: skyblue; padding: 30px;">
-      <h1>Fluid Container</h1>
+    <div class="container-fluid bg-dark mt-0 pt-3 pb-4 text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 my-2 rounded-lg">
+            <div class="card bg-secondary">
+              <img
+                class="card-img-top img-fluid"
+                title="dev window"
+                src="./img/dev-window.gif"
+                alt="dev window"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Describing the dev window</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  veniam officiis blanditiis labore culpa, sint quisquam
+                  asperiores officia soluta vero.
+                </p>
+                <p class="mb-1">ARTM | 2 hours ago</p>
+              </div>
+              <div class="card-footer text-white-50">
+                <ul class="list-inline mb-0 justify-content-center">
+                  <li class="list-inline-item">
+                    <a href="#" class="btn btn-primary">View Post</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn btn-warning">Bookmark</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 my-2 rounded-lg">
+            <div class="card bg-secondary">
+              <img
+                class="card-img-top img-fluid"
+                title="dev window"
+                src="./img/dev-window.gif"
+                alt="dev window"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Describing the dev window</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  veniam officiis blanditiis labore culpa, sint quisquam
+                  asperiores officia soluta vero.
+                </p>
+                <p class="mb-1">ARTM | 2 hours ago</p>
+              </div>
+              <div class="card-footer text-white-50">
+                <ul class="list-inline mb-0 justify-content-center">
+                  <li class="list-inline-item">
+                    <a href="#" class="btn btn-primary">View Post</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn btn-warning">Bookmark</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 my-2 rounded-lg">
+            <div class="card bg-secondary">
+              <img
+                class="card-img-top img-fluid"
+                title="dev window"
+                src="./img/dev-window.gif"
+                alt="dev window"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Describing the dev window</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  veniam officiis blanditiis labore culpa, sint quisquam
+                  asperiores officia soluta vero.
+                </p>
+                <p class="mb-1">ARTM | 2 hours ago</p>
+              </div>
+              <div class="card-footer text-white-50">
+                <ul class="list-inline mb-0 justify-content-center">
+                  <li class="list-inline-item">
+                    <a href="#" class="btn btn-primary">View Post</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn btn-warning">Bookmark</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 my-2 rounded-lg">
+            <div class="card bg-secondary">
+              <img
+                class="card-img-top img-fluid"
+                title="dev window"
+                src="./img/dev-window.gif"
+                alt="dev window"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Describing the dev window</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  veniam officiis blanditiis labore culpa, sint quisquam
+                  asperiores officia soluta vero.
+                </p>
+                <p class="mb-1">ARTM | 2 hours ago</p>
+              </div>
+              <div class="card-footer text-white-50">
+                <ul class="list-inline mb-0 justify-content-center">
+                  <li class="list-inline-item">
+                    <a href="#" class="btn btn-primary">View Post</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn btn-warning">Bookmark</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 my-2 rounded-lg">
+            <div class="card bg-secondary">
+              <img
+                class="card-img-top img-fluid"
+                title="dev window"
+                src="./img/dev-window.gif"
+                alt="dev window"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Describing the dev window</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  veniam officiis blanditiis labore culpa, sint quisquam
+                  asperiores officia soluta vero.
+                </p>
+                <p class="mb-1">ARTM | 2 hours ago</p>
+              </div>
+              <div class="card-footer text-white-50">
+                <ul class="list-inline mb-0 justify-content-center">
+                  <li class="list-inline-item">
+                    <a href="#" class="btn btn-primary">View Post</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn btn-warning">Bookmark</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- requires source link for bootstrap source js code -->
