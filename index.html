@@ -8,26 +8,83 @@
     />
     <!-- bootstrap style sheet -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <style>
+      button {
+        outline: transparent;
+      }
+    </style>
     <title>Document</title>
   </head>
   <body>
-    <div class="container" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
+    <!-- <div class="jumbotron" style="background: greenyellow;">
+      <h1>With a little border-radius</h1>
     </div>
-    <div class="container-sm" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
+    <div class="jumbotron jumbotron-fluid" style="background: greenyellow;">
+      <h1>With no border-radius</h1>
+    </div> -->
+    <div
+      class="jumbotron jumbotron-fluid bg-primary text-white border-top-0 my-0 py-5"
+    >
+      <div class="container-sm">
+        <h1 class="display-4">
+          Welcome to this test <span class="badge badge-secondary">New</span>
+        </h1>
+        <p>
+          This is a test for working <mark class="rounded">jumbotron</mark> in bootstrap
+          <span class="badge badge-pill badge-warning text-dark">First</span>
+        </p>
+        <p class="lead">This is a test for working jumbotron in bootstrap</p>
+        <div class="col-7 bg-light text-dark px-3 rounded-lg mx-auto">
+          <p class="text-center">
+            <small>This is some info</small> that centered
+          </p>
+          <p class="text-center sr-only">
+            <small>This is some info</small> that centered
+          </p>
+        </div>
+        <button class="btn btn-dark btn-block">Follow me</button>
+      </div>
     </div>
-    <div class="container-md" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-lg" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-xl" style="background: greenyellow; padding: 20px;">
-      <h1>Fix Container</h1>
-    </div>
-    <div class="container-fluid" style="background: skyblue; padding: 30px;">
-      <h1>Fluid Container</h1>
+    <div class="container-fluid bg-dark mt-0 pt-3 pb-4 text-light">
+      <div class="container">
+        <h2>Some new information</h2>
+        <blockquote><p class="blockquote">Some test quote</p></blockquote>
+        <p>
+          follow by using <kbd>Enter + alt</kbd> to see some
+          <code>&lt;outputs/&gt;</code>
+        </p>
+        <button class="btn btn-primary btn-sm">submit</button>
+        <button class="btn btn-outline-primary btn-sm">look around</button>
+        <button class="btn btn-primary">submit</button>
+        <button class="btn btn-outline-success">look around</button>
+        <button class="btn btn-primary btn-lg">submit</button>
+        <button class="btn btn-outline-primary btn-lg">look around</button>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-secondary active">
+            <input type="radio" name="options" id="option1" checked> Active
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option2"> Radio
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option3"> Radio
+          </label>
+        </div>
+        <br>
+        <br>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#" class="text-secondary">first</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-secondary">second</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-secondary">third</a>
+          </li>
+        </ul>
+        <br>
+      </div>
     </div>
 
     <!-- requires source link for bootstrap source js code -->
