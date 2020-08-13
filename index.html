@@ -98,7 +98,49 @@
         <h1 class="display-4">
           Welcome to this test <span class="badge badge-secondary">New</span>
         </h1>
-        <p class="lead">This is a test for working with bootstrap</p>
+        <p class="lead">
+          This is a test for working with
+          <span
+            data-toggle="tooltip"
+            title="The tooltip test"
+            class="text-warning"
+            data-placement="top"
+            >bootstrap</span
+          >
+        </p>
+        <p class="lead">
+          This is a test for working with
+          <span
+            data-toggle="tooltip"
+            data-html="true"
+            title="The <em>tooltip</em> test"
+            class="text-warning"
+            data-placement="right"
+            >bootstrap</span
+          >
+        </p>
+        <p class="lead">
+          This is a test for working with
+          <span
+            data-toggle="tooltip"
+            data-html="true"
+            title="The <strong>tooltip</strong> test"
+            class="text-warning"
+            data-placement="left"
+            >bootstrap</span
+          >
+        </p>
+        <p class="lead">
+          This is a test for working with
+          <span
+            data-toggle="tooltip"
+            data-html="true"
+            title="The <u>tooltip</u> test"
+            class="text-warning"
+            data-placement="bottom"
+            >bootstrap</span
+          >
+        </p>
       </div>
     </div>
     <div class="container-fluid bg-dark mt-0 pt-3 pb-4 text-light">
@@ -334,5 +376,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script>
+      //for executing tooltips
+      $(function () {
+        $("[data-toggle='tooltip']").tooltip();
+      });
+    </script>
   </body>
 </html>
